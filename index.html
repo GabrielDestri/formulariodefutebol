@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futart escola de futebol para todos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+    <div class="page">
+        <header>
+
+            <h1>ESCOLA DE FUTEBOL</h1>
+            <p>Preencha o formulário abaixo para agendar sua aula gratuita</p>
+        </header>
+        <form id="form-player">
+            <fieldset>
+                <legend>Inforções Pessoais</legend>
+
+                <div class="input-wrapper">
+                    <label for="Name-player">Nome</label>
+                    <input type="text" name="" id="Nameplayer" required />
+                </div>
+                <div class="input-wrapper">
+                    <label for="sobrenome-player">Sobrenome</label>
+                    <input type="text" name="" id="sobrenome-player" required />
+                </div>
+                <div class="input-wrapper">
+                    <label for="Mailto">E-mail <span>(digite um e-mail válido)</span> </label>
+                    <input type="email" name="" id="Mailto" required />
+                </div>
+                <div class="input-wrapper">
+                    <label for="tel">Telefone </label>
+                    <input type="number" name="" id="tel" required />
+                </div>                
+            </fieldset>
+
+            <fieldset>
+                <legend>Informações corporais</legend>
+    
+                <div class="input-wrapper">
+                    <label for="height">Altura</label>
+                    <input type="heigth" name="" id="height" />
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="Weight">Peso</label>
+                    <input type="Weight" name="" id="Weight" />
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="Age">Idade</label>
+                    <input type="Age" name="" id="Age" />
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Carreira do jogador</legend>
+
+                <div class="3-col">
+                    <div class="input-wrapper">
+                        <label for="player-category">Categoria</label>
+                        <select id="player-category">
+                            <option value="beginner">Iniciante</option>
+                            <option value="Intermediary">Intermediário</option>
+                            <option value="Professional">Profissional</option>
+                            <option value="Legendary">Lendário</option>
+                        </select>   
+                    </div>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="team-favorite">Time</label>
+                    <select id="player-team">
+                        <option value="São Paulo">São Paulo</option>
+                        <option value="Corinthians">Corinthians</option>
+                        <option value="Santos">Santos</option>
+                        <option value="Palmeiras">Palmeiras</option>
+                    </select>   
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="player-position">Posição</label>
+                    <select id="player-position">
+                        <option value="GK">Goleiro</option>
+                        <option value="Defender">Defensor</option>
+                        <option value="Side">Lateral</option>
+                        <option value="Mid">Meio</option>
+                        <option value="Attacker">Atacante</option>
+                    </select>   
+                </div>
+
+            </fieldset>
+
+            <footer>
+                <input 
+                class="button" 
+                type="submit" name="" 
+                form="form-player"
+                id="Salvar Informações">
+            </footer>
+
+        </form>
+    </div>
+
+</body>
+</html>
